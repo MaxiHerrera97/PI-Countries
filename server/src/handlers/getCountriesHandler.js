@@ -1,6 +1,6 @@
 const getCountriesController = require ("../controllers/getCountriesController");
-const getCountriesHanlder = async (req, res) =>{
 
+const getCountriesHanlder = async (req, res) =>{
     try {
         const allCountries = await getCountriesController();
         if(!allCountries.length)
@@ -8,7 +8,7 @@ const getCountriesHanlder = async (req, res) =>{
         res.status(200).json(allCountries);
     } catch (error) {
         res.status(400).json({error: error.message});
-    }
-}
+    };
+};
 
 module.exports = getCountriesHanlder;

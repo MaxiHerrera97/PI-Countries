@@ -1,4 +1,4 @@
-const {Country, Activity} = require ("../db");
+const {Activity} = require ("../db");
 
 const deleteActivityController = async (id)=>{
     const activityToDelete = await Activity.findByPk(id)

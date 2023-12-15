@@ -10,4 +10,4 @@ const getAcvitiesHandler = async (req, res)=>{
     }
 }
 
-module.exports = getAcvitiesHandler
+module.exports = getAcvitiesHandler;

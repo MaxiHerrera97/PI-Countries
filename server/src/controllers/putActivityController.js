@@ -11,10 +11,10 @@ const putActivityController = async (
 const activity = await Activity.findByPk(id);
 
 activity.update({
-    name:name,
-    difficulty:difficulty,
-    duration:duration,
-    season:season
+    name: name,
+    difficulty: difficulty,
+    duration: duration,
+    season: season
 })
 const countriesData = await Country.findAll({
     where:{
@@ -22,8 +22,8 @@ const countriesData = await Country.findAll({
     },
 });
 
-const countryids = countriesData.map((country)=>country.id);
-await activity.setCountries(countryids);
+const countryIds = countriesData.map((country)=>country.id);
+await activity.setCountries(countryIds);
 
 return activity;
 };

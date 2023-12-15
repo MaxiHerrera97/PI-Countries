@@ -1,4 +1,5 @@
 const {Country, Activity} = require ("../db");
+const {Op} = require ("sequelize");
 
 const getCountryByNameController = async (name)=>{
     const countries = await Country.findAll({

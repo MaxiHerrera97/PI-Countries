@@ -11,9 +11,9 @@ const postActivityHandler = async (req, res)=>{
         countries
        ) 
        if(!newActivity) throw new Error ("Activity couldn't be created");
-       res.status(200).json(newActivity);
+       res.status(201).json(newActivity);
     } catch (error) {
        res.status(400).json({error: error.message}); 
     }
-}
+};
 module.exports = postActivityHandler;

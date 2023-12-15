@@ -9,6 +9,7 @@ const {
 const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/countries`, {
   logging: false, 
   native: false, 
+  
 });
 const basename = path.basename(__filename);
 

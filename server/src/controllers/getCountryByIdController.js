@@ -9,6 +9,6 @@ const getCountryByIdController = async (id) =>{
     },
    });
    return country;
-}
+};
 
 module.exports = getCountryByIdController;
