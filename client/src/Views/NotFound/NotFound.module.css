@@ -1,0 +1,12 @@
+.div {
+    background-image: url("../../assets/images/NotFound.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+

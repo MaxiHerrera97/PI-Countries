@@ -1,0 +1,58 @@
+.div {
+    width: 18vw;
+    height: 40vh;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 25% 10%;
+    margin-bottom: 0.5em;
+    background-color: rgba(79, 87, 89, 0.782);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.div:hover,
+.div:hover .img {
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    transition-delay: 0.1s;
+}
+
+.div:hover .h2,
+.div:hover .h3 {
+    text-shadow: 2px 0px 10px rgba(255, 255, 255, 0.5);
+    transition-delay: 0.1s;
+}
+
+.img{
+    margin-top: 1em;
+    width: 30vh;
+    height: 15vh;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+    object-fit: cover;
+}
+
+.link{
+    color: rgb(198, 244, 239);
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+.link:after{
+    content: '';
+}
+
+.h2{
+    font-family: 'Cambria','Cochin', 'Georgia', 'Times', 'Times New Roman', serif; 
+    font-size: 2vw;
+    padding: 0.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0.5em 0;
+}
+
+.h3{
+    font-size: 1.5vw;
+    margin: 0.2em 0;
+}

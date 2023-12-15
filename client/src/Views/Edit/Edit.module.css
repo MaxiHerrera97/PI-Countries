@@ -1,0 +1,153 @@
+.div {
+    background-image: url("../../assets/images/Create.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    min-height: 95vh; /* Modificado: Añadido un mínimo de altura */
+}
+
+.divForm {
+    background-color: rgba(205, 201, 80, 0.97);
+    width: 60%; /* Modificado: Reducido el ancho para centrar más */
+    border-radius: 2em;
+    margin: 1em;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    font-family: fantasy;
+}
+
+.divAct {
+    display: flex;
+    align-items: center;
+    font-size: 4vh; /* Modificado: Ajustado el tamaño del texto */
+    gap: 1em;
+    margin-bottom: 1em; /* Modificado: Incrementado el espacio inferior */
+    height: 5vh; /* Modificado: Ajustado el alto */
+}
+
+.labelAct {
+    margin-top: -0.25em; /* Modificado: Ajustado el espacio superior */
+}
+
+.inputAct {
+    width: 100%; /* Modificado: Ajustado al 100% del contenedor */
+    height: 5vh;
+    background-color: rgb(151, 210, 210);
+    border-radius: 0.5em;
+    padding: 0.25em; /* Modificado: Incrementado el espacio interno */
+    font-size: medium;
+}
+
+.divDif,
+.divDur {
+    display: flex;
+    align-items: center;
+    font-size: 3vh;
+    gap: 1em;
+    margin: 1em 0 0.5em 0.5em; /* Modificado: Ajustado el margen */
+}
+
+.inputDif,
+.inputDur {
+    width: 5vw; /* Modificado: Incrementado el ancho */
+    height: 5vh;
+    background-color: rgb(155, 207, 211);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: large;
+    text-align: center;
+}
+
+.divSeas {
+    background-color: rgb(203, 249, 180);
+    border-radius: 1em;
+    padding: 2em;
+    width: 60%; /* Modificado: Reducido el ancho */
+    margin: 1em auto; /* Modificado: Centrado horizontalmente */
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.labelSeas,
+.labelCountries {
+    font-size: 4vh;
+    margin-bottom: 0.5em;
+}
+
+.labelsSeas,
+.labelsCounts {
+    cursor: pointer;
+}
+
+.inputSeas {
+    width: 2.5vh;
+    height: 2.5vh;
+    cursor: pointer;
+}
+
+.divCountries {
+    margin-top: 1em;
+    font-size: 3vh;
+}
+
+.selectCountries {
+    width: 100%;
+    height: 15em;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    background-color: rgba(249, 145, 145, 0.688);
+    padding: 0.5em; /* Modificado: Incrementado el espacio interno */
+    font-size: medium;
+}
+
+.imgCountries {
+    border: ridge black;
+    width: 15px;
+    height: 10px;
+    margin: 0 0.5em;
+}
+
+.inputImg {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.labelCountries {
+    margin-right: 1em;
+}
+
+.spans {
+    color: rgb(233, 21, 21);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnSubmit {
+    margin-top: 2em;
+    width: 30vw;
+    height: 7vh;
+    border-radius: 1em;
+    font-size: 3vh;
+    background-color: gray; /* Modificado: Agregado un color de fondo por defecto */
+    color: #fff; /* Modificado: Texto blanco por defecto */
+}
+
+.btnSubmit:enabled {
+    background-color: rgb(21, 158, 236);
+    color: rgb(244, 244, 22);
+}
+
+.btnSubmit:enabled:hover {
+    cursor: pointer;
+    background-color: brown;
+    box-shadow: 1px 1px 1px 1px #fff;
+}

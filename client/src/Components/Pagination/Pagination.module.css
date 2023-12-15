@@ -1,0 +1,62 @@
+.divPag {
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    margin-bottom: 0.25em;
+}
+
+.h2 {
+    margin: 0 0.5em;
+    width: 13vw; /* Modificado: Ajuste del ancho */
+    font-size: 3vh; /* Modificado: Tamaño del texto ajustado */
+    padding: 0.5em; /* Agregado: Espaciado interno para mejorar la apariencia */
+    border-radius: 0.5em;
+    background-color: rgba(76, 142, 142, 0.915);
+    color: #ffffff;
+}
+
+.divBtn {
+    display: flex; /* Agregado: Establecer el contenedor de botones como flex */
+    align-items: center;
+    margin-left: 0.5em; /* Ajuste: Espaciado entre los botones y el texto */
+}
+
+.btnNum {
+    font-family: monospace;
+    width: 2.5vw; /* Modificado: Ajuste del ancho */
+    padding: 0.5em; /* Agregado: Espaciado interno para mejorar la apariencia */
+    background-color: rgba(95, 158, 160, 0.889);
+    border-radius: 0.5em;
+    margin: 0 0.5em;
+    color: #ffffff;
+    height: 5vh;
+    
+}
+
+.btnNum:hover {
+    cursor: pointer;
+    height: 5vh;
+    background-color: rgba(227, 64, 64, 0.919);
+    font-weight: 800;
+}
+
+.btnPN {
+    margin: 0 0.5em;
+    width: 7vw; /* Modificado: Ajuste del ancho */
+    font-family: monospace;
+    background-color: rgba(95, 158, 160, 0.918);
+    border-radius: 0.5em;
+    height: 5vh;
+    color: #fff;
+    
+}
+
+.btnPN:hover {
+    background-color: rgb(184, 96, 96);
+    cursor: pointer;
+    height: 5vh;
+    font-weight: 800;
+}
