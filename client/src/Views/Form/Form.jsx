@@ -23,7 +23,7 @@ const Form = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 300);
+    }, 200);
     if (!countriesCopy.length) dispatch(getCountries());
   }, []);
 
